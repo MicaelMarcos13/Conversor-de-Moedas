@@ -1,0 +1,155 @@
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: #8A51FC;
+    
+}
+
+.logo {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 20px auto;
+
+}
+
+main {
+    width: 372px;
+    height: 720px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 44px 24px 23px 24px;
+
+}
+
+label {
+    color: #777777;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+select,
+input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 900px;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+
+    width: 100%;
+    height: 48px;
+    top: 329px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: #772FD3;
+    font-weight: 700px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 18px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    width: 100%;
+    height: 296px;
+    margin-top: 36px;
+    left: 24px;
+    border-radius: 20px;
+    border: 1px;
+    border: 1px solid #772FD3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+.arrow{
+    margin: 15px 0;
+}
+
+.brasil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.eua{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.currency{
+    width: 30px;
+    height: 18px;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #777777;
+
+}
+.currency-value-to-convert{
+    color: #555555;
+    font-size: 20px;
+    margin-top: 7px;
+    
+}
+.currency-value{
+    color: #555555;
+    font-size: 20px;
+    margin-top: 7px;
+
+}
